@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8734df8a-8a08-43a2-a4a3-9b72ec1ebf52" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.14.3/libexec" />
+  <component name="ProjectId" id="1gcjSIiL1L5HnXUOrAXbflgAUav" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build 09-mutex-counter.go">
+    <configuration name="go build 03-buffered-channels.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/05-Concurrency/03-buffered-channels.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 04-range-and-close.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/05-Concurrency/04-range-and-close.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 05-select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/05-Concurrency/05-select.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 06-default-selection.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/05-Concurrency/06-default-selection.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 09-mutex-counter.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/05-Concurrency/09-mutex-counter.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build 09-mutex-counter.go" />
+        <item itemvalue="Go Build.go build 06-default-selection.go" />
+        <item itemvalue="Go Build.go build 05-select.go" />
+        <item itemvalue="Go Build.go build 04-range-and-close.go" />
+        <item itemvalue="Go Build.go build 03-buffered-channels.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="2" key="GridCell.Tab.0.bottom" timestamp="1598505453343">
+      <screen x="-1920" y="23" width="1920" height="1020" />
+    </state>
+    <state width="1878" height="2" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453343" />
+    <state width="1878" height="2" key="GridCell.Tab.0.center" timestamp="1598505453342">
+      <screen x="-1920" y="23" width="1920" height="1020" />
+    </state>
+    <state width="1878" height="2" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453342" />
+    <state width="1878" height="2" key="GridCell.Tab.0.left" timestamp="1598505453341">
+      <screen x="-1920" y="23" width="1920" height="1020" />
+    </state>
+    <state width="1878" height="2" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453341" />
+    <state width="1878" height="2" key="GridCell.Tab.0.right" timestamp="1598505453343">
+      <screen x="-1920" y="23" width="1920" height="1020" />
+    </state>
+    <state width="1878" height="2" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453343" />
+    <state width="1878" height="2" key="GridCell.Tab.1.bottom" timestamp="1598505453345">
+      <screen x="-1920" y="23" width="1920" height="1020" />
+    </state>
+    <state width="1878" height="2" key="GridCell.Tab.1.bottom/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453345" />
+    <state width="1878" height="2" key="GridCell.Tab.1.center" timestamp="1598505453344">
+      <screen x="-1920" y="23" width="1920" height="1020" />
+    </state>
+    <state width="1878" height="2" key="GridCell.Tab.1.center/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453344" />
+    <state width="1878" height="2" key="GridCell.Tab.1.left" timestamp="1598505453344">
+      <screen x="-1920" y="23" width="1920" height="1020" />
+    </state>
+    <state width="1878" height="2" key="GridCell.Tab.1.left/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453344" />
+    <state width="1878" height="2" key="GridCell.Tab.1.right" timestamp="1598505453344">
+      <screen x="-1920" y="23" width="1920" height="1020" />
+    </state>
+    <state width="1878" height="2" key="GridCell.Tab.1.right/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453344" />
+    <state x="-1451" y="172" key="SettingsEditor" timestamp="1598504763094">
+      <screen x="-1920" y="23" width="1920" height="1020" />
+    </state>
+    <state x="-1451" y="172" key="SettingsEditor/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598504763094" />
+    <state x="-1295" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1598426388016">
+      <screen x="-1920" y="23" width="1920" height="1020" />
+    </state>
+    <state x="-1295" y="249" width="670" height="676" key="search.everywhere.popup/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598426388016" />
+  </component>
+</project>

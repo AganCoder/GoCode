@@ -1,2 +1,6 @@
-# GoCode
-Codes about learning Go language 
+## 学习资源
+
+01 - 《Go 语言之旅》: https://tour.go-zh.org/welcome/1
+
+
+

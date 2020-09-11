@@ -16,16 +16,31 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8734df8a-8a08-43a2-a4a3-9b72ec1ebf52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Demo/http+JSON/Server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/http+JSON/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第一章/01-test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第一章/笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第二章/01-var.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Package包学习笔记/01-strconv.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-Package包学习笔记/02-flag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/01-接口.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/02-借口嵌入其他接口.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/03-接口类型转换.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/04-匿名接口.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/05-执行机制.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/06-执行机制02.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/07-类型转换.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第四章 函数/01-func.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/05-functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/05-functions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第二章/01-var.go" beforeDir="false" afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第二章/01-var.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,54 +88,54 @@
       <recent name="$PROJECT_DIR$/《The way to go》" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 01-var.go">
-    <configuration name="go build 01-test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 07-类型转换.go">
+    <configuration name="go build 01-interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go Src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第一章/01-test.go" />
+      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/01-interface.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 01-var.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 03-conv.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go Src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第二章/01-var.go" />
+      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/03-conv.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 05-read?_write_file1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 04-匿名接口.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go Src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/《The way to go》/chp12/05-read?_write_file1.go" />
+      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/04-匿名接口.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 06-执行机制02.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go Src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Demo/http+JSON/Server.go" />
+      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/06-执行机制02.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 07-类型转换.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go Src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Demo/http+JSON/client.go" />
+      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第七章 接口/07-类型转换.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 01-var.go" />
-        <item itemvalue="Go Build.go build 01-test.go" />
-        <item itemvalue="Go Build.go build client.go" />
-        <item itemvalue="Go Build.go build Server.go" />
-        <item itemvalue="Go Build.go build 05-read?_write_file1.go" />
+        <item itemvalue="Go Build.go build 07-类型转换.go" />
+        <item itemvalue="Go Build.go build 06-执行机制02.go" />
+        <item itemvalue="Go Build.go build 04-匿名接口.go" />
+        <item itemvalue="Go Build.go build 03-conv.go" />
+        <item itemvalue="Go Build.go build 01-interface.go" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +148,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -145,26 +172,30 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1215" y="358" key="#com.intellij.fileTypes.FileTypeChooser/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598864893996" />
-    <state width="1878" height="3" key="GridCell.Tab.0.bottom" timestamp="1599639598328">
+    <state width="1878" height="256" key="GridCell.Tab.0.bottom" timestamp="1599813428892">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453343" />
-    <state width="1878" height="3" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598328" />
-    <state width="1878" height="3" key="GridCell.Tab.0.center" timestamp="1599639598327">
+    <state width="1878" height="256" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599813428892" />
+    <state width="1878" height="279" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@0.23.1920.1020" timestamp="1599807110938" />
+    <state width="1878" height="256" key="GridCell.Tab.0.center" timestamp="1599813428891">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453342" />
-    <state width="1878" height="3" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598327" />
-    <state width="1878" height="3" key="GridCell.Tab.0.left" timestamp="1599639598326">
+    <state width="1878" height="256" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599813428891" />
+    <state width="1878" height="279" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@0.23.1920.1020" timestamp="1599807110938" />
+    <state width="1878" height="256" key="GridCell.Tab.0.left" timestamp="1599813428890">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453341" />
-    <state width="1878" height="3" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598326" />
-    <state width="1878" height="3" key="GridCell.Tab.0.right" timestamp="1599639598328">
+    <state width="1878" height="256" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599813428890" />
+    <state width="1878" height="279" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@0.23.1920.1020" timestamp="1599807110937" />
+    <state width="1878" height="256" key="GridCell.Tab.0.right" timestamp="1599813428891">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453343" />
-    <state width="1878" height="3" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598328" />
+    <state width="1878" height="256" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599813428891" />
+    <state width="1878" height="279" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@0.23.1920.1020" timestamp="1599807110938" />
     <state width="1878" height="3" key="GridCell.Tab.1.bottom" timestamp="1599639598330">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -195,5 +226,16 @@
     </state>
     <state x="-1295" y="249" width="670" height="676" key="search.everywhere.popup/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598426388016" />
     <state x="-1295" y="257" width="670" height="701" key="search.everywhere.popup/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599555503598" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/《Go语言学习笔记》/第四章 函数/01-func.go</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

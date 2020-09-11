@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"hello"
+	//"hello"
 	"os"
-	"hello/say"
+	//"hello/say"
 )
 
 func main() {
@@ -12,8 +12,8 @@ func main() {
 
 	fmt.Println(f, err)
 
-	hello.SayHello()
-	say.SayHello()
+	//hello.SayHello()
+	//say.SayHello()
 
 	//f, err := os.Open("/dev/random") // no new variables on left side of :=
 	//fmt.Println(f, err)

@@ -20,20 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8734df8a-8a08-43a2-a4a3-9b72ec1ebf52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp04/01-local_scope.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp04/02-function_calls_funtion.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp04/03-global_scope.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp04/04-bool.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp04/05-times.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp05/01-string/02-switch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp06/01-func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp12/01-readinput1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp12/02-readinput2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp12/03-switch_input.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp12/04-fileinput.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/chp12/05-read?_write_file1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/笔记第五章.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《The way to go》/笔记第四章.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/http+JSON/Server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/http+JSON/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第一章/01-test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第一章/笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第二章/01-var.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,46 +62,31 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/《The way to go》" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/《The way to go》" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/《The way to go》" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Demo/http+JSON" />
+      <recent name="$PROJECT_DIR$/《The way to go》" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 05-read?_write_file1.go">
-    <configuration name="go build 01-readinput1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 01-var.go">
+    <configuration name="go build 01-test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go Src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/《The way to go》/chp12/01-readinput1.go" />
+      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第一章/01-test.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 02-readinput2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 01-var.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go Src" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/《The way to go》/chp12/02-readinput2.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 03-switch_input.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go Src" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/《The way to go》/chp12/03-switch_input.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 04-fileinput.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go Src" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/《The way to go》/chp12/04-fileinput.go" />
+      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第二章/01-var.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -122,13 +98,29 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build Server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Demo/http+JSON/Server.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Demo/http+JSON/client.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 01-var.go" />
+        <item itemvalue="Go Build.go build 01-test.go" />
+        <item itemvalue="Go Build.go build client.go" />
+        <item itemvalue="Go Build.go build Server.go" />
         <item itemvalue="Go Build.go build 05-read?_write_file1.go" />
-        <item itemvalue="Go Build.go build 04-fileinput.go" />
-        <item itemvalue="Go Build.go build 03-switch_input.go" />
-        <item itemvalue="Go Build.go build 02-readinput2.go" />
-        <item itemvalue="Go Build.go build 01-readinput1.go" />
       </list>
     </recent_temporary>
   </component>
@@ -153,53 +145,55 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1215" y="358" key="#com.intellij.fileTypes.FileTypeChooser/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598864893996" />
-    <state width="1878" height="245" key="GridCell.Tab.0.bottom" timestamp="1598867690750">
+    <state width="1878" height="3" key="GridCell.Tab.0.bottom" timestamp="1599639598328">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453343" />
-    <state width="1878" height="245" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598867690750" />
-    <state width="1878" height="245" key="GridCell.Tab.0.center" timestamp="1598867690748">
+    <state width="1878" height="3" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598328" />
+    <state width="1878" height="3" key="GridCell.Tab.0.center" timestamp="1599639598327">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453342" />
-    <state width="1878" height="245" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598867690748" />
-    <state width="1878" height="245" key="GridCell.Tab.0.left" timestamp="1598867690748">
+    <state width="1878" height="3" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598327" />
+    <state width="1878" height="3" key="GridCell.Tab.0.left" timestamp="1599639598326">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453341" />
-    <state width="1878" height="245" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598867690748" />
-    <state width="1878" height="245" key="GridCell.Tab.0.right" timestamp="1598867690749">
+    <state width="1878" height="3" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598326" />
+    <state width="1878" height="3" key="GridCell.Tab.0.right" timestamp="1599639598328">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453343" />
-    <state width="1878" height="245" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598867690749" />
-    <state width="1878" height="3" key="GridCell.Tab.1.bottom" timestamp="1598853296511">
+    <state width="1878" height="3" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598328" />
+    <state width="1878" height="3" key="GridCell.Tab.1.bottom" timestamp="1599639598330">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.1.bottom/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453345" />
-    <state width="1878" height="3" key="GridCell.Tab.1.bottom/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598853296511" />
-    <state width="1878" height="3" key="GridCell.Tab.1.center" timestamp="1598853296510">
+    <state width="1878" height="3" key="GridCell.Tab.1.bottom/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598330" />
+    <state width="1878" height="3" key="GridCell.Tab.1.center" timestamp="1599639598329">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.1.center/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453344" />
-    <state width="1878" height="3" key="GridCell.Tab.1.center/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598853296510" />
-    <state width="1878" height="3" key="GridCell.Tab.1.left" timestamp="1598853296510">
+    <state width="1878" height="3" key="GridCell.Tab.1.center/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598329" />
+    <state width="1878" height="3" key="GridCell.Tab.1.left" timestamp="1599639598329">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.1.left/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453344" />
-    <state width="1878" height="3" key="GridCell.Tab.1.left/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598853296510" />
-    <state width="1878" height="3" key="GridCell.Tab.1.right" timestamp="1598853296511">
+    <state width="1878" height="3" key="GridCell.Tab.1.left/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598329" />
+    <state width="1878" height="3" key="GridCell.Tab.1.right" timestamp="1599639598330">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.1.right/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453344" />
-    <state width="1878" height="3" key="GridCell.Tab.1.right/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598853296511" />
-    <state x="-1451" y="172" key="SettingsEditor" timestamp="1598504763094">
-      <screen x="-1920" y="23" width="1920" height="1020" />
+    <state width="1878" height="3" key="GridCell.Tab.1.right/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599639598330" />
+    <state x="-1451" y="177" key="SettingsEditor" timestamp="1599640337031">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1451" y="172" key="SettingsEditor/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598504763094" />
-    <state x="-1295" y="249" width="670" height="676" key="search.everywhere.popup" timestamp="1598426388016">
-      <screen x="-1920" y="23" width="1920" height="1020" />
+    <state x="-1451" y="177" key="SettingsEditor/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599640337031" />
+    <state x="-1295" y="257" width="670" height="701" key="search.everywhere.popup" timestamp="1599555503598">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1295" y="249" width="670" height="676" key="search.everywhere.popup/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598426388016" />
+    <state x="-1295" y="257" width="670" height="701" key="search.everywhere.popup/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1599555503598" />
   </component>
 </project>

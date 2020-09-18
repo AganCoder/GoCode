@@ -5,9 +5,9 @@ func main() {
 	c := make(chan  int)
 
 	go func() {
-		defer close(done)
+		//defer close(done)
 
-		for x := range c {
+		for x := range c { // 循环获取消息，直到通道被关闭
 			println(x)
 		}
 	}()

@@ -27,10 +27,155 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8734df8a-8a08-43a2-a4a3-9b72ec1ebf52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/23-模式-goroutine 与通道绑定.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/24-模式-并发队列.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/23-模式.go" beforeDir="false" afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/25-模式-信号量.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第09章/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Package包学习笔记/01-strconv.go" beforeDir="false" afterPath="$PROJECT_DIR$/04-Package包学习笔记/01-strconv.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Package包学习笔记/02-flag" beforeDir="false" afterPath="$PROJECT_DIR$/04-Package包学习笔记/02-flag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Package包学习笔记/02-flag.go" beforeDir="false" afterPath="$PROJECT_DIR$/04-Package包学习笔记/02-flag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/00-Hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/00-Hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/01-package main.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/01-package main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/02-imports.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/02-imports.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/03-exported-names.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/03-exported-names.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/04-exported-names.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/04-exported-names.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/05-functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/05-functions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/06-multiple-resultes.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/06-multiple-resultes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/07-named-results.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/07-named-results.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/08-variables.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/08-variables.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/09-variables-with-initializers.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/09-variables-with-initializers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/10-short-variable-declarations.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/10-short-variable-declarations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/11-basic-types.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/11-basic-types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/12-zero.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/12-zero.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/13-type-conversions.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/13-type-conversions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/14-type-inference.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/14-type-inference.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/15-constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/15-constants.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/01-Packages,variables,and functions/16-numeric-constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/01-Packages,variables,and functions/16-numeric-constants.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/01-for.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/01-for.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/02-for-comyomied.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/02-for-comyomied.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/03-for-is-gos-while.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/03-for-is-gos-while.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/04-forever.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/04-forever.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/05-if.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/05-if.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/06-if-with-a-short-statement.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/06-if-with-a-short-statement.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/07-if-and-else.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/07-if-and-else.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/08-exercise-loops-and-functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/08-exercise-loops-and-functions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/09-switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/09-switch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/10-switch-evaluation-order.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/10-switch-evaluation-order.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/11-switch-with-no-condiion.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/11-switch-with-no-condiion.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/12-defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/12-defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/13-defer-multi.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/02-Flow control statements: for, if, else, switch and defer/13-defer-multi.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./01-pointers.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./01-pointers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./02-structs.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./02-structs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./03-struct-fields.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./03-struct-fields.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./04-struct-pointers.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./04-struct-pointers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./05-struct-literals.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./05-struct-literals.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./06-array.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./06-array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./07-slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./07-slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./08-slices-pointers.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./08-slices-pointers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./09-slice-literals.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./09-slice-literals.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./10-slice-bounds.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./10-slice-bounds.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./11-slice-len-cap.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./11-slice-len-cap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./12-nil-slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./12-nil-slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./13-making-slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./13-making-slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./14-slices-of-slice.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./14-slices-of-slice.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./15-append.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./15-append.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./16-range.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./16-range.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./17-range-continued.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./17-range-continued.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./18-exercise-slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./18-exercise-slices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./19-maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./19-maps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./20-map-literals.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./20-map-literals.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./21-map-literals-continued.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./21-map-literals-continued.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./22-multating-maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./22-multating-maps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./23-exercise-maps.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./23-exercise-maps.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./24-function-values.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./24-function-values.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./25-function-closures.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./25-function-closures.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/03-More types: structs, slices, and maps./26-exercise-fibonacci-closure.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/03-More types: structs, slices, and maps./26-exercise-fibonacci-closure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/01-Methods.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/01-Methods.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/02-methods-funcs.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/02-methods-funcs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/03-methods-continued.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/03-methods-continued.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/04-methods-pointers.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/04-methods-pointers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/05-methods-pointer-explained.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/05-methods-pointer-explained.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/06-indirection.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/06-indirection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/07-indirection-values.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/07-indirection-values.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/08-methods-with-pointer-receivers.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/08-methods-with-pointer-receivers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/09-interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/09-interfaces.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/10-interfaces-are-satisfied-implicitly.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/10-interfaces-are-satisfied-implicitly.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/11-interface-values.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/11-interface-values.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/12-interface-values-with-nil.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/12-interface-values-with-nil.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/13-nil-interface-values.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/13-nil-interface-values.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/14-empty-interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/14-empty-interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/15-type-assertions.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/15-type-assertions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/16-type-switches.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/16-type-switches.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/17-stringer.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/17-stringer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/18-exercise-stringer.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/18-exercise-stringer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/19-errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/19-errors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/20-exercies-errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/20-exercies-errors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/21-reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/21-reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/22-exercise-reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/22-exercise-reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/23-exercies-rot-reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/23-exercies-rot-reader.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/24-images.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/24-images.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/04-Methids and interfaces/25-exercise-images.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/04-Methids and interfaces/25-exercise-images.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/05-Concurrency/01-goroutines.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/05-Concurrency/01-goroutines.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/05-Concurrency/02-channels.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/05-Concurrency/02-channels.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/05-Concurrency/03-buffered-channels.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/05-Concurrency/03-buffered-channels.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/05-Concurrency/04-range-and-close.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/05-Concurrency/04-range-and-close.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/05-Concurrency/05-select.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/05-Concurrency/05-select.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/05-Concurrency/06-default-selection.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/05-Concurrency/06-default-selection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/05-Concurrency/07-exercise-BinarySearchTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/05-Concurrency/07-exercise-BinarySearchTree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/05-Concurrency/09-mutex-counter.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/05-Concurrency/09-mutex-counter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言之旅》/05-Concurrency/10-exercise-web-crawler.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-《Go语言之旅》/05-Concurrency/10-exercise-web-crawler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第01章/01-test.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第01章/01-test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第01章/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第01章/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第02章/01-var" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第02章/01-var" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第02章/01-var.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第02章/01-var.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第04章 函数/01-func.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第04章 函数/01-func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第07章 接口/01-接口.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第07章 接口/01-接口.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第07章 接口/02-借口嵌入其他接口.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第07章 接口/02-借口嵌入其他接口.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第07章 接口/03-接口类型转换.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第07章 接口/03-接口类型转换.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第07章 接口/04-匿名接口.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第07章 接口/04-匿名接口.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第07章 接口/05-执行机制.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第07章 接口/05-执行机制.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第07章 接口/06-执行机制02.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第07章 接口/06-执行机制02.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第07章 接口/07-类型转换.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第07章 接口/07-类型转换.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第07章 接口/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第07章 接口/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/01-并发延迟执行复制参数.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/01-并发延迟执行复制参数.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/02-wait.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/02-wait.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/03-waitGroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/03-waitGroup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/04-多处使用wait.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/04-多处使用wait.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/05-GOMAXPROCS.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/05-GOMAXPROCS.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/06-localStorage.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/06-localStorage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/07-Gosched.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/07-Gosched.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/08-Goexit.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/08-Goexit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/09-Goexit.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/09-Goexit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/10-通道.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/10-通道.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/11-通道异步模式.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/11-通道异步模式.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/12-通道变量判等.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/12-通道变量判等.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/13-收发-ok-idom.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/13-收发-ok-idom.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/13-收发-range.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/13-收发-range.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/14-waitGroup.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/14-waitGroup.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/15-单向.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/15-单向.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/16-单向.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/16-单向.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/17-选择.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/17-选择.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/18-选择-nil.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/18-选择-nil.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/19-选择-同一通道随机选择.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/19-选择-同一通道随机选择.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/20-选择 -default.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/20-选择 -default.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/21-选择-default.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/21-选择-default.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/23-模式-goroutine 与通道绑定.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/23-模式-goroutine 与通道绑定.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/24-模式-并发队列.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/24-模式-并发队列.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/25-模式-信号量.go" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/25-模式-信号量.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-《Go语言学习笔记》/第08章 并发/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp04/01-local_scope.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp04/01-local_scope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp04/02-function_calls_funtion.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp04/02-function_calls_funtion.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp04/03-global_scope.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp04/03-global_scope.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp04/04-bool.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp04/04-bool.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp04/05-times.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp04/05-times.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp05/01-string/01-string_conversion2.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp05/01-string/01-string_conversion2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp05/01-string/02-switch.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp05/01-string/02-switch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp06/01-func.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp06/01-func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp12/01-readinput1.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp12/01-readinput1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp12/02-readinput2.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp12/02-readinput2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp12/03-switch_input.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp12/03-switch_input.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp12/04-fileinput.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp12/04-fileinput.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/chp12/05-read?_write_file1.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/chp12/05-read?_write_file1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/笔记第一章-第三章.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/笔记第一章-第三章.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/笔记第五章.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/笔记第五章.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《The way to go》/笔记第四章.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-《The way to go》/笔记第四章.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +374,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/《Go语言学习笔记》/第04章 函数/01-func.go</url>
+          <url>file://$PROJECT_DIR$/03-《Go语言学习笔记》/第04章 函数/01-func.go</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

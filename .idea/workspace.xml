@@ -27,19 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8734df8a-8a08-43a2-a4a3-9b72ec1ebf52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/13-收发-ok-idom.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/15-单向.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/16-单向.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/17-选择.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/18-选择-nil.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/19-选择-同一通道随机选择.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/20-选择 -default.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/21-选择-default.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/23-模式.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/23-模式-goroutine 与通道绑定.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/24-模式-并发队列.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/11-通道异步模式.go" beforeDir="false" afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/11-通道异步模式.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/13-收发.go" beforeDir="false" afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/13-收发-range.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/23-模式.go" beforeDir="false" afterPath="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/25-模式-信号量.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,23 +78,7 @@
       <recent name="$PROJECT_DIR$/《The way to go》" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 21-选择-default.go">
-    <configuration name="go build 17-选择.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go Src" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/17-选择.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 18-选择-nil.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go Src" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/18-选择-nil.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build 25-模式-信号量.go">
     <configuration name="go build 19-选择-同一通道随机选择.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go Src" />
       <working_directory value="$PROJECT_DIR$" />
@@ -128,13 +103,29 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 23-模式.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/23-模式.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 25-模式-信号量.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Src" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/《Go语言学习笔记》/第08章 并发/25-模式-信号量.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 25-模式-信号量.go" />
+        <item itemvalue="Go Build.go build 23-模式.go" />
         <item itemvalue="Go Build.go build 21-选择-default.go" />
         <item itemvalue="Go Build.go build 20-选择 -default.go" />
         <item itemvalue="Go Build.go build 19-选择-同一通道随机选择.go" />
-        <item itemvalue="Go Build.go build 18-选择-nil.go" />
-        <item itemvalue="Go Build.go build 17-选择.go" />
       </list>
     </recent_temporary>
   </component>
@@ -171,29 +162,29 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1215" y="358" key="#com.intellij.fileTypes.FileTypeChooser/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1598864893996" />
-    <state width="1878" height="224" key="GridCell.Tab.0.bottom" timestamp="1600406783983">
+    <state width="1878" height="170" key="GridCell.Tab.0.bottom" timestamp="1600423534052">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453343" />
-    <state width="1878" height="224" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1600406783983" />
+    <state width="1878" height="170" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1600423534052" />
     <state width="1878" height="279" key="GridCell.Tab.0.bottom/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@0.23.1920.1020" timestamp="1599807110938" />
-    <state width="1878" height="224" key="GridCell.Tab.0.center" timestamp="1600406783983">
+    <state width="1878" height="170" key="GridCell.Tab.0.center" timestamp="1600423534051">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453342" />
-    <state width="1878" height="224" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1600406783983" />
+    <state width="1878" height="170" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1600423534051" />
     <state width="1878" height="279" key="GridCell.Tab.0.center/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@0.23.1920.1020" timestamp="1599807110938" />
-    <state width="1878" height="224" key="GridCell.Tab.0.left" timestamp="1600406783982">
+    <state width="1878" height="170" key="GridCell.Tab.0.left" timestamp="1600423534051">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453341" />
-    <state width="1878" height="224" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1600406783982" />
+    <state width="1878" height="170" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1600423534051" />
     <state width="1878" height="279" key="GridCell.Tab.0.left/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@0.23.1920.1020" timestamp="1599807110937" />
-    <state width="1878" height="224" key="GridCell.Tab.0.right" timestamp="1600406783983">
+    <state width="1878" height="170" key="GridCell.Tab.0.right" timestamp="1600423534051">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="2" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1020/0.23.1920.1057@-1920.23.1920.1020" timestamp="1598505453343" />
-    <state width="1878" height="224" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1600406783983" />
+    <state width="1878" height="170" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@-1920.23.1920.1057" timestamp="1600423534051" />
     <state width="1878" height="279" key="GridCell.Tab.0.right/-3360.163.1440.877/-1920.23.1920.1057/0.23.1920.1020@0.23.1920.1020" timestamp="1599807110938" />
     <state width="1878" height="3" key="GridCell.Tab.1.bottom" timestamp="1599639598330">
       <screen x="-1920" y="23" width="1920" height="1057" />

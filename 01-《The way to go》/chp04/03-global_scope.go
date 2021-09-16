@@ -3,16 +3,16 @@ package main
 var a = "G"
 
 func main() {
-   n()
-   m()
-   n()
+	n()
+	m()
+	n()
 }
 
 func n() {
-   print(a)
+	print(a)
 }
 
 func m() {
-   a = "O"
-   print(a)
+	a = "O"
+	print(a)
 }

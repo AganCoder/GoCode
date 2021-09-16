@@ -24,4 +24,3 @@ func main() {
 	newS = strconv.Itoa(an)
 	fmt.Printf("The new string is %s \n", newS)
 }
-

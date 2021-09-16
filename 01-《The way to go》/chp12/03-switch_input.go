@@ -1,9 +1,9 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
 	"os"
-	"bufio"
 )
 
 func main() {
@@ -19,13 +19,14 @@ func main() {
 	fmt.Printf("Your fist name is %s", input)
 
 	switch input {
-	case "Philip\n":  fmt.Println("Welcome Philip!")
-	case "Chris\n":   fmt.Println("Welcome Chris!")
-	case "Ivo\n":     fmt.Println("Welcome Ivo!")
-	default: fmt.Printf("You are not welcome here! Goodbye!")
+	case "Philip\n":
+		fmt.Println("Welcome Philip!")
+	case "Chris\n":
+		fmt.Println("Welcome Chris!")
+	case "Ivo\n":
+		fmt.Println("Welcome Ivo!")
+	default:
+		fmt.Printf("You are not welcome here! Goodbye!")
 	}
 
-
-
 }
-

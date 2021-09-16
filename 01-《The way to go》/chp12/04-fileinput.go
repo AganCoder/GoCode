@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"bufio"
+	"fmt"
 	"io"
 	"os"
 	"path/filepath"
@@ -24,7 +24,6 @@ func main() {
 	}
 	defer inputFile.Close()
 
-
 	inputReader := bufio.NewReader(inputFile)
 
 	for {
@@ -36,4 +35,3 @@ func main() {
 		}
 	}
 }
-

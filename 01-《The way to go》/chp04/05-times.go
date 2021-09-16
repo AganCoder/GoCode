@@ -7,7 +7,6 @@ import (
 
 var week time.Duration
 
-
 // Format("20060102") ？？？？
 
 func main() {
@@ -29,6 +28,6 @@ func main() {
 	fmt.Println(week_from_now)
 
 	s := t.Format("20060102")
-	fmt.Println(t, "===>",s)
+	fmt.Println(t, "===>", s)
 
 }

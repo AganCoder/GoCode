@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-var a string 
+var a string
 
 // G O G
 
@@ -29,4 +29,3 @@ func f2() {
 
 	fmt.Printf("%p  - %v \n", &a, a)
 }
-

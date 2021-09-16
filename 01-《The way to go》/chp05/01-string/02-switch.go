@@ -5,7 +5,7 @@ import (
 	"runtime"
 )
 
-func main()  {
+func main() {
 	var goods interface{} = runtime.GOOS
 	switch goods {
 	case 1:

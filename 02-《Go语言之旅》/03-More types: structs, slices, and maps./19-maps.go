@@ -16,7 +16,7 @@ func main() {
 		fmt.Println("nil!")
 	}
 
-	m = make( map[string]Vertex)
+	m = make(map[string]Vertex)
 
 	fmt.Println(m)
 
@@ -24,5 +24,5 @@ func main() {
 		40.68433, -74.39967,
 	}
 
-	fmt.Println(m["Bell Labs"] )
+	fmt.Println(m["Bell Labs"])
 }

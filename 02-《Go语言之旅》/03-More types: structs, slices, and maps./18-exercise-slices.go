@@ -9,12 +9,12 @@ func Pic(dx, dy int) [][]uint8 {
 		b := make([]int, dx)
 
 		for j := range b {
-			b[j] = ( i + j ) / 2 
+			b[j] = (i + j) / 2
 		}
 
 		a[i] = b
 	}
-	return a 
+	return a
 }
 
 func main() {

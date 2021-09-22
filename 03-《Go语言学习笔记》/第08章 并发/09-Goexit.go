@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	for i := 0; i < 2; i ++ {
+	for i := 0; i < 2; i++ {
 		go func(x int) {
 			for n := 0; n < 2; n++ {
 				fmt.Printf("%c: %d \n", 'a'+x, n)
@@ -16,6 +16,6 @@ func main() {
 		}(i)
 
 	}
-	runtime.Goexit() // 等待所有的任务结束，然后让进程直接崩溃
+	runtime.Goexit()     // 等待所有的任务结束，然后让进程直接崩溃
 	println("main exit") // 不会执行
 }

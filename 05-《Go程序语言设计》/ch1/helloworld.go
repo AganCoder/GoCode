@@ -4,15 +4,14 @@ package main
 import "fmt"
 
 // main This is main func
-// 
-// 
+//
+//
 
 func main() {
 	fmt.Println("Hello world")
 }
 
-
-// add function is for 
+// add function is for
 //
 //
 

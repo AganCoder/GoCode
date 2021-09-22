@@ -19,10 +19,9 @@ func main() {
 		fmt.Println("nil!") // nil!
 	}
 
-	s1 := []int{ }
+	s1 := []int{}
 
 	fmt.Println(s1, len(s1), cap(s1))
-
 
 	if s1 == nil {
 		fmt.Println("s1 nil!")
@@ -30,6 +29,5 @@ func main() {
 
 	var s2 [6]int
 	fmt.Println(s2, len(s2), cap(s2)) // [0 0 0 0 0 0] 6 6
-
 
 }

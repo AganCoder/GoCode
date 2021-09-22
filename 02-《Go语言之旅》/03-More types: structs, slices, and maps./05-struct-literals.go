@@ -1,4 +1,4 @@
-package main 
+package main
 
 import "fmt"
 
@@ -8,10 +8,10 @@ type Vertex struct {
 
 // 结构体文法通过直接列出字段的值来新分配一个结构体。
 var (
-	v1 = Vertex{1, 2 }
+	v1 = Vertex{1, 2}
 	v2 = Vertex{X: 1}
 	v3 = Vertex{}
-	p = &Vertex{1, 2}
+	p  = &Vertex{1, 2}
 )
 
 func main() {

@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // int
-// float64 
+// float64
 // complex123
 // bool
 // string

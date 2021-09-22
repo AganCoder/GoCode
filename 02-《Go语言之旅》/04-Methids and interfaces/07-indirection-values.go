@@ -6,7 +6,7 @@ import (
 )
 
 type Vertex struct {
-	 X, Y float64
+	X, Y float64
 }
 
 // 方法调用 p.Abs() 会被解释为 (*p).Abs()。

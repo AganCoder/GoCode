@@ -13,7 +13,7 @@ type T struct {
 // 当接口内部具体值为 nil， 仍然会调用 nil 接收者方法
 // 在 OC 中， nil 接收者不会调用任何方法 --- GO 语言会调用
 // Python  Java 或者 C里面会触发空指针异常，Go 语言不会
-func (t *T) M()  {
+func (t *T) M() {
 	if t == nil {
 		fmt.Println("<nil>")
 		return

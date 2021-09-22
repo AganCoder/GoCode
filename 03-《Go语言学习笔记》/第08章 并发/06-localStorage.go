@@ -8,8 +8,8 @@ import (
 func main() {
 	var wg sync.WaitGroup
 
-	var gs [5]struct{
-		id int
+	var gs [5]struct {
+		id     int
 		result int
 	}
 

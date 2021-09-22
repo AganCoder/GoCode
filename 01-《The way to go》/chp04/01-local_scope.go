@@ -2,7 +2,7 @@ package main
 
 var a = "G"
 
-// This is main function in 01-Locak 
+// This is main function in 01-Locak
 func main() {
 	n() // G
 	m() // O
@@ -11,7 +11,6 @@ func main() {
 
 // this is function n
 func n() { print(a) }
-
 
 // this is func m
 func m() {

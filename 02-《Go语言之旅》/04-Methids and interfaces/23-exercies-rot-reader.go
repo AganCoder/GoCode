@@ -10,8 +10,8 @@ type rot13Reader struct {
 	r io.Reader
 }
 
-func rot13(out byte) byte{  //字母转换
-	switch{
+func rot13(out byte) byte { //字母转换
+	switch {
 	case out >= 'A' && out <= 'M' || out >= 'a' && out <= 'm':
 		out += 13
 	case out >= 'N' && out <= 'Z' || out >= 'n' && out <= 'z':
@@ -20,12 +20,12 @@ func rot13(out byte) byte{  //字母转换
 	return out
 }
 
-func (fz rot13Reader) Read(b []byte) (int,error){  //重写Read方法
+func (fz rot13Reader) Read(b []byte) (int, error) { //重写Read方法
 	n, e := fz.r.Read(b)
 	for i := 0; i < n; i++ {
 		b[i] = rot13(b[i])
 	}
-	return n,e
+	return n, e
 }
 
 func main() {

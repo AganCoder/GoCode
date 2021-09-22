@@ -21,9 +21,8 @@ func main() {
 	delete(m, "Answer")
 	fmt.Println("The values:", m["Answer"])
 
-		
 	v, ok := m["Answer"]
 
 	fmt.Println("The value:", v, "Present?", ok)
 
-}	
+}

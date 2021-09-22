@@ -7,7 +7,7 @@ func add(x int, y int) int {
 }
 
 func nestedFunc() {
-	var funcvar = func( x int ) int {
+	var funcvar = func(x int) int {
 		return 10
 	}
 

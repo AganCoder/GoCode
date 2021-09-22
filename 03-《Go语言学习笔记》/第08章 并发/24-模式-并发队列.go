@@ -24,6 +24,3 @@ func (p pool) put(b []byte) {
 	default:
 	}
 }
-
-
-

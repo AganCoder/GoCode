@@ -17,6 +17,5 @@ func main() {
 
 	//f, err := os.Open("/dev/random") // no new variables on left side of :=
 	//fmt.Println(f, err)
-	
-}
 
+}

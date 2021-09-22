@@ -5,7 +5,7 @@ import (
 	"net"
 )
 
-func handle( conn net.Conn) {
+func handle(conn net.Conn) {
 	defer conn.Close()
 
 	for {
@@ -24,7 +24,6 @@ func handle( conn net.Conn) {
 
 }
 
-
 func main() {
 	fmt.Println(" Start server.... ")
 	listen, err := net.Listen("tcp", "0.0.0.0:3000")
@@ -35,7 +34,7 @@ func main() {
 	}
 
 	for {
-		conn, errs := listen.Accept() 
+		conn, errs := listen.Accept()
 
 		if errs != nil {
 			fmt.Println("accept failed")

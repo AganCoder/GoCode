@@ -8,10 +8,9 @@ type tester interface {
 }
 
 type data struct {
-
 }
 
-func (d *data) test()  {
+func (d *data) test() {
 	fmt.Printf("test \n")
 }
 
@@ -20,7 +19,7 @@ func (d *data) string() string {
 	return ""
 }
 
-func main()  {
+func main() {
 	d := data{}
 
 	d.test()
@@ -30,4 +29,3 @@ func main()  {
 	t.string()
 	t.test()
 }
-

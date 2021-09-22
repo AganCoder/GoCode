@@ -5,10 +5,10 @@ import (
 )
 
 func main() {
-	var send = make(chan <- int)
+	var send = make(chan<- int)
 	fmt.Printf("%v, %T", send, send)
 
-	var recv = make(<- chan  int)
+	var recv = make(<-chan int)
 
 	fmt.Printf("%v, %T", recv, recv)
 

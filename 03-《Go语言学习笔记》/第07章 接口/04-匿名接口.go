@@ -1,21 +1,20 @@
 package main
 
 type data struct {
-
 }
 
-func (data) string() string  {
+func (data) string() string {
 	return "data string"
 }
 
 type node struct {
-	data interface{ // 匿名接口类型
+	data interface { // 匿名接口类型
 		string() string
 	}
 }
 
 func main() {
-	var t interface{
+	var t interface {
 		string() string
 	} = data{}
 

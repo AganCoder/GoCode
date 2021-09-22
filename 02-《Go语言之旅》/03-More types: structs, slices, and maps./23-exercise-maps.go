@@ -1,7 +1,5 @@
 package main
 
-package main
-
 import (
 	"golang.org/x/tour/wc"
 	"strings"

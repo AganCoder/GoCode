@@ -14,11 +14,11 @@ func main() {
 
 	c := make(chan int)
 
-	var send chan <- int = c
+	var send chan<- int = c
 
 	fmt.Printf("send: %p, c: %p \n", send, c)
 
-	var recv <- chan int = c
+	var recv <-chan int = c
 
 	fmt.Printf("recv: %p, c: %p \n", send, c)
 
@@ -35,7 +35,7 @@ func main() {
 		//defer close(recv) // invalid operation: close(recv) (cannot close receive-only channel)
 		defer close(c)
 
-		for i:=0; i<3; i++ {
+		for i := 0; i < 3; i++ {
 			send <- i
 		}
 

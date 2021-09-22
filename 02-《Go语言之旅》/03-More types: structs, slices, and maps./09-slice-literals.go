@@ -11,10 +11,10 @@ func main() {
 
 	fmt.Println(q)
 
-	r := []bool {true, false, true, false, true, false,true}
+	r := []bool{true, false, true, false, true, false, true}
 	fmt.Println(r)
 
-	s := [] struct {
+	s := []struct {
 		i int
 		b bool
 	}{

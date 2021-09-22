@@ -9,7 +9,7 @@ import (
 
 func count() {
 	x := 0
-	for i :=0; i < math.MaxUint32; i++ {
+	for i := 0; i < math.MaxUint32; i++ {
 		x += 1
 	}
 
@@ -17,7 +17,7 @@ func count() {
 }
 
 func test(n int) {
-	for i := 0; i < n; i ++ {
+	for i := 0; i < n; i++ {
 		count()
 	}
 }
@@ -26,7 +26,7 @@ func test2(n int) {
 	var wg sync.WaitGroup
 	wg.Add(n)
 
-	for i:=0; i<n; i++ {
+	for i := 0; i < n; i++ {
 		go func() {
 			count()
 			wg.Done()
@@ -36,7 +36,7 @@ func test2(n int) {
 	wg.Wait()
 }
 
-func main()  {
+func main() {
 	n := runtime.GOMAXPROCS(0)
 	now := time.Now()
 

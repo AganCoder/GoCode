@@ -8,7 +8,7 @@ func test() *int {
 	return &a
 }
 
-func main()  {
+func main() {
 	a := test()
 
 	fmt.Printf("%p\n", a)

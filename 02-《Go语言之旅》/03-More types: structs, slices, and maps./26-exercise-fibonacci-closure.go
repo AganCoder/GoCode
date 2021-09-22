@@ -8,7 +8,7 @@ func fibonacci() func() int {
 	a, b := -1, 1
 
 	return func() int {
-		a, b  = b, a + b
+		a, b = b, a+b
 		return b
 	}
 

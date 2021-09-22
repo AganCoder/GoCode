@@ -11,7 +11,7 @@ func main() {
 	c := make(chan int)
 
 	go func() {
-		defer  wg.Done()
+		defer wg.Done()
 
 		for {
 			var i int
@@ -20,8 +20,8 @@ func main() {
 			select {
 			case i, ok = <-c:
 				println("a1: ", i)
-				case i, ok = <-c:
-					println("a2:", i)
+			case i, ok = <-c:
+				println("a2:", i)
 			}
 
 			if !ok {
@@ -34,10 +34,10 @@ func main() {
 		defer wg.Done()
 		defer close(c)
 
-		for i := 0; i < 10; i ++ {
+		for i := 0; i < 10; i++ {
 			select {
 			case c <- i:
-				case c <- i * 10:
+			case c <- i * 10:
 
 			}
 		}

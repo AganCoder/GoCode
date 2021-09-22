@@ -7,14 +7,14 @@ import (
 	"time"
 )
 
-func main()  {
+func main() {
 	runtime.GOMAXPROCS(4)
 
 	var wg sync.WaitGroup
 
 	sem := make(chan struct{}, 1)
 
-	for i:=0; i<5; i++ {
+	for i := 0; i < 5; i++ {
 		wg.Add(1)
 
 		go func(id int) {
@@ -23,7 +23,7 @@ func main()  {
 			sem <- struct{}{}
 
 			defer func() {
-				<- sem
+				<-sem
 			}()
 
 			time.Sleep(time.Second * 2)

@@ -5,11 +5,10 @@ import (
 	"strconv"
 )
 
-
 // conver ASCII to integer & integer to ASCII
 func atoiFunc() {
 	i, err := strconv.Atoi("-42")
-	if	err != nil {
+	if err != nil {
 		fmt.Println("err")
 		return
 	}
@@ -46,7 +45,6 @@ func main() {
 	b = strconv.AppendBool(b, true)
 	fmt.Println(string(b))
 
-
 	// ================
 	b32 := []byte("float32:")
 	b32 = strconv.AppendFloat(b32, 3.1415926535, 'E', -1, 32)
@@ -56,11 +54,9 @@ func main() {
 	b64 = strconv.AppendFloat(b64, 3.1415926535, 'E', -1, 64)
 	fmt.Println(string(b64))
 
-
 	// ===========
 	quote := []byte("quote:")
-	quote= strconv.AppendQuote(quote, `"Fran & Freddie's Diner"`)
+	quote = strconv.AppendQuote(quote, `"Fran & Freddie's Diner"`)
 	fmt.Println(string(quote))
 
 }
-

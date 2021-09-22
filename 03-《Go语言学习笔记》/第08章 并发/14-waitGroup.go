@@ -6,30 +6,29 @@ import (
 )
 
 func main() {
-	 var wg sync.WaitGroup
-	 ready := make(chan struct{})
+	var wg sync.WaitGroup
+	ready := make(chan struct{})
 
-	 for i := 0; i < 3; i ++ {
-	 	wg.Add(1)
+	for i := 0; i < 3; i++ {
+		wg.Add(1)
 
-	 	go func(id int) {
-	 		defer  wg.Done()
+		go func(id int) {
+			defer wg.Done()
 
-	 		println(id, ": ready")
+			println(id, ": ready")
 
-	 		<- ready
+			<-ready
 
-	 		println(id, ": running...")
+			println(id, ": running...")
 		}(i)
-	 }
+	}
 
+	time.Sleep(time.Second)
+	println("Ready Go!")
 
-	 time.Sleep(time.Second)
-	 println("Ready Go!")
+	// 使用 close 关闭一次性事件
+	close(ready)
 
-	 // 使用 close 关闭一次性事件
-	 close(ready)
-
-	 wg.Wait()
+	wg.Wait()
 
 }

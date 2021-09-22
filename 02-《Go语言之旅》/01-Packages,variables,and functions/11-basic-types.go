@@ -6,9 +6,9 @@ import (
 )
 
 var (
-	ToBe bool 		= false
-	MaxInt uint64   = 1<<64 -1
-	z 	complex128  = cmplx.Sqrt(-5 + 12i)
+	ToBe   bool       = false
+	MaxInt uint64     = 1<<64 - 1
+	z      complex128 = cmplx.Sqrt(-5 + 12i)
 )
 
 func main() {
@@ -35,7 +35,7 @@ float32 float64
 
 complex64 complex128
 
-int, uint 和 uintptr 在 32 位系统上通常为 32 位宽，在 64 位系统上则为 64 位宽。 
+int, uint 和 uintptr 在 32 位系统上通常为 32 位宽，在 64 位系统上则为 64 位宽。
 当你需要一个整数值时应使用 int 类型，除非你有特殊的理由使用固定大小或无符号的整数类型。
 
 */

@@ -9,7 +9,7 @@ func main() {
 	go func() {
 		defer close(done)
 
-		for  {
+		for {
 			time.Sleep(time.Second)
 			// 对于同一通道，接受操作是阻塞的，直到发送者可用，如果通道中没有数据，接受者就阻塞了！
 			x, ok := <-c
@@ -33,5 +33,5 @@ func main() {
 
 	close(c)
 
-	<- done
+	<-done
 }

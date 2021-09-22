@@ -14,6 +14,6 @@ func main() {
 
 	ta, tb, tc := reflect.TypeOf(a), reflect.TypeOf(b), reflect.TypeOf(c)
 
-	fmt.Println(ta == tb, ta == tc) // true, false
+	fmt.Println(ta == tb, ta == tc)     // true, false
 	fmt.Println(ta.Kind() == tc.Kind()) // true
 }

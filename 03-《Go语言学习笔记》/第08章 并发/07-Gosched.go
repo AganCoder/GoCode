@@ -16,7 +16,7 @@ func main() {
 			println("b")
 		}()
 
-		for i:=0; i<4; i++ {
+		for i := 0; i < 4; i++ {
 			println("a: ", i)
 
 			if i == 2 {
@@ -25,5 +25,5 @@ func main() {
 		}
 	}()
 
-	<- exit
+	<-exit
 }

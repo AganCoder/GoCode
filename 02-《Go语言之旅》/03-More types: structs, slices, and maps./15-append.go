@@ -5,7 +5,7 @@ import "fmt"
 // 当 s 的底层数组太小，不足以容纳所有给定的值时，它就会分配一个更大的数组。返回的切片会指向这个新分配的数组。
 
 func main() {
-	var s []int 
+	var s []int
 	printSlice(s)
 	fmt.Printf("%p \n", &s)
 

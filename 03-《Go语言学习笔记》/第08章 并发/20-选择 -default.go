@@ -10,7 +10,7 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(2)
 
-	c := make(chan  int)
+	c := make(chan int)
 
 	go func() {
 		defer wg.Done()
@@ -36,7 +36,5 @@ func main() {
 
 	c <- 100
 	close(c)
-
-
 
 }

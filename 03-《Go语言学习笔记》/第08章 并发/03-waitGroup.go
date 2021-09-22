@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main()  {
+func main() {
 	var wg sync.WaitGroup
 
 	for i := 0; i < 10; i++ {

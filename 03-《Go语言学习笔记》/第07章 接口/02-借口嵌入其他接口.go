@@ -7,14 +7,14 @@ type stringer interface {
 }
 
 type tester interface {
-	 stringer
-	 test()
+	stringer
+	test()
 }
 
 type data struct {
 }
 
-func (d *data) test()  {
+func (d *data) test() {
 	fmt.Printf("test")
 }
 

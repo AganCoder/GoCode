@@ -18,7 +18,7 @@ func print(s stringer) {
 	fmt.Println(s.string())
 }
 
-func (d *data) test()  {
+func (d *data) test() {
 	fmt.Printf("test")
 }
 

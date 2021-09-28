@@ -1,8 +1,8 @@
 package main
 
 import (
-	"net/http"
 	"gee"
+	"net/http"
 )
 
 func main() {
